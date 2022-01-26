@@ -28,7 +28,7 @@ for filename in os.listdir(directory):
         print('File number: ',totalfiles)
         from astropy.io import fits
                          
-                #=os.path.join(r'C:\Users\legoj\Desktop\Bunchoffitsfiles\BAL',filename)
+                #=os.path.join(r'C:\Users\Owner\Desktop\Fits\BAL',filename)
                 #print(nam)
                 #name=fits.util.get_testdata_filepath(nam)
         name = os.path.join(directory, filename)
@@ -146,7 +146,7 @@ for filename in os.listdir(directory):
                 #plt.show()
                 
                 #Below is locoation to save as png
-                #plt.savefig('C:/Users/legoj/desktop/Spectra/waveflux.png')
+                #plt.savefig('C:/Users/Owner/desktop/Spectra/waveflux.png')
                 
                 #================Plot with Limit (for zooming in)
                 #print('Plot with limits')
